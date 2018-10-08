@@ -1,8 +1,8 @@
 #!/bin/bash
 
-#removal of page cache
-cache_dir="/some/dir/on/your/server/*"
-rm -rf ${cache_dir}
+#removal of page cache, be careful, ok?
+cache_dir="/some/dir/on/your/server/"
+rm -rf ${cache_dir}*
 
 #sitemap to be crawled
 sitemap="https://example.com/sitemap.xml"
